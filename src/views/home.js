@@ -15,7 +15,6 @@ const Home = (props) => {
       </Helmet>
       <section className="home-hero">
         <video
-          src="https://presentation-website-assets.teleporthq.io/templates/togthr/togthr-video.mp4"
           loop
           muted
           poster="/playground_assets/2023-01-21_06.48.43-800h.png"
@@ -62,14 +61,16 @@ const Home = (props) => {
                 data-role="Nav"
                 className="home-nav1"
               >
-                <span className="home-text">About</span>
-                <Link to="/page" className="home-navlink">
-                  Join now!
+                <Link to="/" className="home-navlink">
+                  About
                 </Link>
                 <Link to="/page" className="home-navlink1">
+                  Join now!
+                </Link>
+                <Link to="/page" className="home-navlink2">
                   Minecraft SMP
                 </Link>
-                <Link to="/page1" className="home-navlink2">
+                <Link to="/page1" className="home-navlink3">
                   Team
                 </Link>
               </nav>
@@ -85,13 +86,13 @@ const Home = (props) => {
           <div className="home-header-container">
             <div className="home-header">
               <h1 className="home-heading">
-                <span className="home-text01">Nuxt</span>
+                <span className="home-text">Nuxt</span>
                 <br></br>
               </h1>
             </div>
             <p className="home-caption">COMMUNITY</p>
           </div>
-          <Link to="/page" className="home-navlink3 button">
+          <Link to="/page" className="home-navlink4 button">
             <span>
               <span>Join Now!</span>
               <br></br>
@@ -151,8 +152,8 @@ new BlazeSlider(el, {
         <div className="home-content">
           <div className="home-objectives-list">
             <div className="objective">
-              <h3 className="home-text06">Teman</h3>
-              <p className="home-text07">
+              <h3 className="home-text05">Teman</h3>
+              <p className="home-text06">
                 Kesepian? Hmm mugkin kamu bisa bergabung disini. Kalian bisa
                 bertemu sesama player minecraft disini, Baik java atau bedrock.
                 <span
@@ -163,14 +164,14 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective home-objective1">
-              <h3 className="home-text08">Nice Admin&amp;Member!</h3>
-              <p className="home-text09">
+              <h3 className="home-text07">Nice Admin&amp;Member!</h3>
+              <p className="home-text08">
                 Pastinya, Kalian gamau komunitas yang toxic :)
               </p>
             </div>
             <div className="objective home-objective2">
-              <h3 className="home-text10">Event!</h3>
-              <p className="home-text11">
+              <h3 className="home-text09">Event!</h3>
+              <p className="home-text10">
                 Berbagai evernt terkadang tersedia! mulai dari SMP dll.
               </p>
             </div>
@@ -231,7 +232,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text14">
+                <span className="home-text13">
                   Tidak adanya konten berbau 18+
                 </span>
               </div>
@@ -241,7 +242,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text15">Free talks &amp; Speech</span>
+                <span className="home-text14">Free talks &amp; Speech</span>
               </div>
               <div className="home-check2">
                 <div className="home-mark2">
@@ -249,7 +250,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text16">
+                <span className="home-text15">
                   Best Minecraft smp experience
                 </span>
               </div>
@@ -259,7 +260,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text17">Up to Date</span>
+                <span className="home-text16">Up to Date</span>
               </div>
             </div>
           </div>
@@ -335,10 +336,14 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-bottom">
-            <span className="home-text18">
+            <span className="home-text17">
               © 2020 - 2023 NuxtTeam- All rights reserved
             </span>
-            <button data-role="scroll-top" className="home-button1 button">
+            <button
+              data-role="scroll-top"
+              type="button"
+              className="home-button1 button"
+            >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"

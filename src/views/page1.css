@@ -113,17 +113,19 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.page1-text {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .page1-navlink {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.page1-text01 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .page1-navlink1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page1-navlink2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page1-navlink3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -216,7 +218,7 @@
   margin-bottom: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.page1-text04 {
+.page1-text02 {
   color: rgb(161, 182, 203);
 }
 .page1-container06 {
@@ -226,7 +228,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.page1-text05 {
+.page1-text03 {
   color: var(--dl-color-secondary-500);
   font-weight: 600;
   margin-left: var(--dl-space-space-halfunit1);
@@ -242,7 +244,7 @@
 .page1-component {
   text-decoration: none;
 }
-.page1-text06 {
+.page1-text04 {
   color: rgb(255, 255, 255);
   width: 75%;
   font-size: 1.125rem;
@@ -299,7 +301,7 @@
   margin-bottom: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.page1-text09 {
+.page1-text07 {
   color: rgb(161, 182, 203);
 }
 .page1-container12 {
@@ -309,7 +311,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.page1-text10 {
+.page1-text08 {
   color: var(--dl-color-secondary-500);
   font-weight: 600;
   margin-left: var(--dl-space-space-halfunit1);
@@ -325,7 +327,7 @@
 .page1-component1 {
   text-decoration: none;
 }
-.page1-text11 {
+.page1-text09 {
   color: rgb(255, 255, 255);
   width: 75%;
   font-size: 1.125rem;
@@ -382,7 +384,7 @@
   margin-bottom: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.page1-text14 {
+.page1-text12 {
   color: rgb(161, 182, 203);
 }
 .page1-container18 {
@@ -392,7 +394,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.page1-text17 {
+.page1-text15 {
   color: var(--dl-color-secondary-500);
   font-weight: 600;
   margin-left: var(--dl-space-space-halfunit1);
@@ -408,7 +410,7 @@
 .page1-component2 {
   text-decoration: none;
 }
-.page1-text18 {
+.page1-text16 {
   color: rgb(255, 255, 255);
   width: 75%;
   font-size: 1.125rem;
@@ -465,7 +467,7 @@
   margin-bottom: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.page1-text21 {
+.page1-text19 {
   color: rgb(161, 182, 203);
 }
 .page1-container24 {
@@ -475,7 +477,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.page1-text24 {
+.page1-text22 {
   color: var(--dl-color-secondary-500);
   font-weight: 600;
   margin-left: var(--dl-space-space-halfunit1);
@@ -491,7 +493,7 @@
 .page1-component3 {
   text-decoration: none;
 }
-.page1-text25 {
+.page1-text23 {
   color: rgb(255, 255, 255);
   width: 75%;
   font-size: 1.125rem;
@@ -557,7 +559,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.page1-text28 {
+.page1-text26 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
@@ -596,10 +598,10 @@
   .page1-container04 {
     flex-direction: column;
   }
-  .page1-text04 {
+  .page1-text02 {
     color: rgb(161, 182, 203);
   }
-  .page1-text06 {
+  .page1-text04 {
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 300;
@@ -608,19 +610,19 @@
   .page1-container10 {
     flex-direction: column;
   }
-  .page1-text09 {
+  .page1-text07 {
     color: rgb(161, 182, 203);
   }
-  .page1-text11 {
+  .page1-text09 {
     color: rgb(255, 255, 255);
   }
   .page1-container16 {
     flex-direction: column;
   }
-  .page1-text14 {
+  .page1-text12 {
     color: rgb(161, 182, 203);
   }
-  .page1-text18 {
+  .page1-text16 {
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 300;
@@ -629,10 +631,10 @@
   .page1-container22 {
     flex-direction: column;
   }
-  .page1-text21 {
+  .page1-text19 {
     color: rgb(161, 182, 203);
   }
-  .page1-text25 {
+  .page1-text23 {
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 300;
@@ -648,7 +650,7 @@
   .page1-branding1 {
     width: 100%;
   }
-  .page1-text28 {
+  .page1-text26 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;

@@ -112,9 +112,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .home-navlink {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -124,6 +121,10 @@
   text-decoration: none;
 }
 .home-navlink2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-navlink3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -170,7 +171,7 @@
   font-style: normal;
   font-weight: 500;
 }
-.home-text01 {
+.home-text {
   font-size: 60px;
 }
 .home-caption {
@@ -179,7 +180,7 @@
   max-width: 600px;
   line-height: 36px;
 }
-.home-navlink3 {
+.home-navlink4 {
   text-decoration: none;
   background-color: #94b6ff;
 }
@@ -307,33 +308,33 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-text06 {
+.home-text05 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
+}
+.home-text06 {
+  color: rgb(124, 124, 128);
+  line-height: 24px;
 }
 .home-text07 {
-  color: rgb(124, 124, 128);
-  line-height: 24px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
 }
 .home-text08 {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-text09 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
-.home-text10 {
+.home-text09 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
-.home-text11 {
+.home-text10 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -529,7 +530,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text14 {
+.home-text13 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -554,7 +555,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text15 {
+.home-text14 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -579,7 +580,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text16 {
+.home-text15 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -604,7 +605,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text17 {
+.home-text16 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -872,7 +873,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text18 {
+.home-text17 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
@@ -1003,7 +1004,7 @@
   .home-branding1 {
     width: 100%;
   }
-  .home-text18 {
+  .home-text17 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;
@@ -1234,7 +1235,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .home-navlink3 {
+  .home-navlink4 {
     text-align: center;
   }
   .home-caption1 {
@@ -1247,13 +1248,13 @@
   .home-image1 {
     height: 400px;
   }
-  .home-text06 {
+  .home-text05 {
     font-size: 18px;
   }
-  .home-text08 {
+  .home-text07 {
     font-size: 18px;
   }
-  .home-text10 {
+  .home-text09 {
     font-size: 18px;
   }
   .home-heading2 {

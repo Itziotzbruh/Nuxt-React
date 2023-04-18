@@ -18,7 +18,6 @@ const Page = (props) => {
       </Helmet>
       <section className="page-hero">
         <video
-          src="https://presentation-website-assets.teleporthq.io/templates/togthr/togthr-video.mp4"
           loop
           muted
           poster="/playground_assets/2023-01-21_06.48.43-800h.png"
@@ -65,12 +64,16 @@ const Page = (props) => {
                 data-role="Nav"
                 className="page-nav1"
               >
-                <span className="page-text">About</span>
                 <Link to="/" className="page-navlink">
+                  About
+                </Link>
+                <Link to="/" className="page-navlink1">
                   Home
                 </Link>
-                <span className="page-text01">Minecraft SMP</span>
-                <Link to="/page1" className="page-navlink1">
+                <Link to="/" className="page-navlink2">
+                  Minecraft SMP
+                </Link>
+                <Link to="/page1" className="page-navlink3">
                   Team
                 </Link>
               </nav>
@@ -103,9 +106,9 @@ const Page = (props) => {
           />
         </div>
         <div className="page-container05">
-          <h3 className="page-text04">Nuxt Community</h3>
+          <h3 className="page-text02">Nuxt Community</h3>
           <div className="page-container06">
-            <span className="page-text05 TextSM">
+            <span className="page-text03 TextSM">
               Minecraft Community &amp; SMP
             </span>
           </div>
@@ -133,7 +136,7 @@ const Page = (props) => {
               ></PrimaryButton>
             </a>
           </div>
-          <span className="page-text06">
+          <span className="page-text04">
             <span>
               Sebuah Grup Komunitas Minecraft Yang Di-accuire Oleh Nuxt
               Community Dan Kini Menjadi Satu. Gabung Sekarang!
@@ -152,9 +155,9 @@ const Page = (props) => {
           />
         </div>
         <div className="page-container11">
-          <h3 className="page-text09">Info Minecraft Indonesia</h3>
+          <h3 className="page-text07">Info Minecraft Indonesia</h3>
           <div className="page-container12">
-            <span className="page-text10">mc_info_id</span>
+            <span className="page-text08">mc_info_id</span>
           </div>
           <div className="page-container13">
             <a
@@ -170,7 +173,7 @@ const Page = (props) => {
               ></SecondaryButton2>
             </a>
           </div>
-          <span className="page-text11">
+          <span className="page-text09">
             <span>
               Sebuah Profil Instagram Yang Memberi Info Dan Update Tentang
               Minecraft.
@@ -192,10 +195,14 @@ const Page = (props) => {
             </div>
           </div>
           <div className="page-bottom">
-            <span className="page-text14">
+            <span className="page-text12">
               © 2022 togthr - All rights reserved
             </span>
-            <button data-role="scroll-top" className="page-button button">
+            <button
+              data-role="scroll-top"
+              type="button"
+              className="page-button button"
+            >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"

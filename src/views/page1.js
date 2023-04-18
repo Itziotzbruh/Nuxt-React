@@ -16,7 +16,6 @@ const Page1 = (props) => {
       </Helmet>
       <section className="page1-hero">
         <video
-          src="https://presentation-website-assets.teleporthq.io/templates/togthr/togthr-video.mp4"
           loop
           muted
           poster="/playground_assets/2023-01-21_06.48.43-800h.png"
@@ -63,12 +62,16 @@ const Page1 = (props) => {
                 data-role="Nav"
                 className="page1-nav1"
               >
-                <span className="page1-text">About</span>
                 <Link to="/" className="page1-navlink">
+                  About
+                </Link>
+                <Link to="/" className="page1-navlink1">
                   Home
                 </Link>
-                <span className="page1-text01">Minecraft SMP</span>
-                <Link to="/page1" className="page1-navlink1">
+                <Link to="/page" className="page1-navlink2">
+                  Minecraft SMP
+                </Link>
+                <Link to="/page1" className="page1-navlink3">
                   Team
                 </Link>
               </nav>
@@ -101,9 +104,9 @@ const Page1 = (props) => {
           />
         </div>
         <div className="page1-container05">
-          <h3 className="page1-text04">iotzbruhh</h3>
+          <h3 className="page1-text02">iotzbruhh</h3>
           <div className="page1-container06">
-            <span className="page1-text05 TextSM">Owner</span>
+            <span className="page1-text03 TextSM">Owner</span>
           </div>
           <div className="page1-container07">
             <SecondaryButton
@@ -111,7 +114,7 @@ const Page1 = (props) => {
               className="page1-component"
             ></SecondaryButton>
           </div>
-          <span className="page1-text06">
+          <span className="page1-text04">
             <span>
               Hai! Saya hanyalah seseorang yang tiba tiba mempunyai Ide membuat
               sebuah komunitas... Ya, saya awalnya cuma jadi staff di Hallsmp,
@@ -131,9 +134,9 @@ const Page1 = (props) => {
           />
         </div>
         <div className="page1-container11">
-          <h3 className="page1-text09">Nabil</h3>
+          <h3 className="page1-text07">Nabil</h3>
           <div className="page1-container12">
-            <span className="page1-text10 TextSM">CO OWNER</span>
+            <span className="page1-text08 TextSM">CO OWNER</span>
           </div>
           <div className="page1-container13">
             <SecondaryButton
@@ -141,7 +144,7 @@ const Page1 = (props) => {
               className="page1-component1"
             ></SecondaryButton>
           </div>
-          <span className="page1-text11">
+          <span className="page1-text09">
             <span>
               Just Wildin. i dint doing anything. I working with guy above me
             </span>
@@ -159,12 +162,12 @@ const Page1 = (props) => {
           />
         </div>
         <div className="page1-container17">
-          <h3 className="page1-text14">
+          <h3 className="page1-text12">
             <span>Cherlyn</span>
             <br></br>
           </h3>
           <div className="page1-container18">
-            <span className="page1-text17 TextSM">Staff 1st</span>
+            <span className="page1-text15 TextSM">Staff 1st</span>
           </div>
           <div className="page1-container19">
             <SecondaryButton
@@ -172,7 +175,7 @@ const Page1 = (props) => {
               className="page1-component2"
             ></SecondaryButton>
           </div>
-          <span className="page1-text18">
+          <span className="page1-text16">
             <span>
               Just Wildin. i dint doing anything. I working with guy above me
             </span>
@@ -190,12 +193,12 @@ const Page1 = (props) => {
           />
         </div>
         <div className="page1-container23">
-          <h3 className="page1-text21">
+          <h3 className="page1-text19">
             <span>Cloud</span>
             <br></br>
           </h3>
           <div className="page1-container24">
-            <span className="page1-text24 TextSM">founder</span>
+            <span className="page1-text22 TextSM">founder</span>
           </div>
           <div className="page1-container25">
             <SecondaryButton
@@ -203,7 +206,7 @@ const Page1 = (props) => {
               className="page1-component3"
             ></SecondaryButton>
           </div>
-          <span className="page1-text25">
+          <span className="page1-text23">
             <span>Founder Of HallSMP. Sekarang Tidak Meminpin Apapun.</span>
             <br></br>
           </span>
@@ -222,10 +225,14 @@ const Page1 = (props) => {
             </div>
           </div>
           <div className="page1-bottom">
-            <span className="page1-text28">
+            <span className="page1-text26">
               © 2020 - 2023 NuxtTeam- All rights reserved
             </span>
-            <button data-role="scroll-top" className="page1-button button">
+            <button
+              data-role="scroll-top"
+              type="button"
+              className="page1-button button"
+            >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
