@@ -1,0 +1,571 @@
+.outline-blue-button-container {
+  display: flex;
+  position: relative;
+}
+.outline-blue-button-button {
+  color: var(--dl-color-blue-500);
+  cursor: pointer;
+  background: white;
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-halfunit9);
+  border-color: var(--dl-color-blue-500);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: var(--dl-radius-radius-radius5);
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit9);
+  background-color: transparent;
+}
+.outline-blue-button-button:hover {
+  transform: scale(1.02);
+}
+
+.next-button-container {
+  display: flex;
+  position: relative;
+}
+.next-button-button {
+  color: var(--dl-color-blue-500);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit9);
+  border-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit9);
+  background-color: transparent;
+}
+.next-button-text {
+  font-size: 1.25rem;
+  margin-right: var(--dl-space-space-halfunit9);
+}
+.next-button-icon {
+  fill: var(--dl-color-blue-500);
+  width: var(--dl-size-size-unit);
+  height: var(--dl-size-size-unit);
+  transition: 0.3s;
+}
+.next-button-icon:hover {
+  transform: translateX(5px);
+}
+
+.mcpedia-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+.mcpedia-hero {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.mcpedia-video {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  filter: opacity(0.6);
+  height: 731px;
+  position: absolute;
+  object-fit: cover;
+}
+.mcpedia-navbar {
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  justify-content: space-between;
+}
+.mcpedia-branding {
+  width: 141px;
+  height: 78px;
+  object-fit: cover;
+}
+.mcpedia-burger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mcpedia-hamburger {
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+  background-color: #98c8ff;
+}
+.mcpedia-hamburger:hover {
+  opacity: .5;
+}
+.mcpedia-icon {
+  width: 60px;
+  object-fit: cover;
+}
+.mcpedia-mobile-menu {
+  top: 0px;
+  color: var(--dl-color-gray-white);
+  right: -3px;
+  width: 317px;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 0.5s;
+  flex-direction: column;
+  backdrop-filter: blur(20px);
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.64);
+}
+.mcpedia-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mcpedia-container01 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  padding-right: 725px;
+  justify-content: space-between;
+}
+.mcpedia-image {
+  height: 2rem;
+}
+.mcpedia-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mcpedia-icon1 {
+  fill: var(--dl-color-gray-white);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.mcpedia-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mcpedia-navlink {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mcpedia-navlink1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mcpedia-navlink2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mcpedia-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.mcpedia-login {
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+  background-color: #464646;
+}
+.mcpedia-hero-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  height: 691px;
+  display: flex;
+  z-index: 100;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.mcpedia-header-container {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.mcpedia-header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mcpedia-heading {
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  max-width: 790px;
+  font-style: normal;
+  font-weight: 500;
+}
+.mcpedia-profile {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 1320px;
+  margin-top: var(--dl-space-space-sixunits1);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-sixunits1);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-sixunits1);
+}
+.mcpedia-image1 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius75);
+}
+.mcpedia-container03 {
+  flex: 2;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-sixunits1);
+  margin-right: var(--dl-space-space-sixunits1);
+  flex-direction: column;
+}
+.mcpedia-container04 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit9);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mcpedia-text02 {
+  color: var(--dl-color-secondary-700);
+  font-size: 1.5rem;
+  font-style: normal;
+  margin-bottom: var(--dl-space-space-halfunit9);
+}
+.mcpedia-container05 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit10);
+  flex-direction: row;
+}
+.mcpedia-text03 {
+  margin-right: var(--dl-space-space-unit10);
+}
+.mcpedia-text04 {
+  color: var(--dl-color-secondary-700);
+  font-style: normal;
+  font-weight: 600;
+}
+.mcpedia-text06 {
+  margin-right: var(--dl-space-space-unit10);
+}
+.mcpedia-text07 {
+  color: var(--dl-color-secondary-700);
+  font-style: normal;
+  font-weight: 600;
+}
+.mcpedia-text10 {
+  color: var(--dl-color-secondary-700);
+  font-style: normal;
+  font-weight: 600;
+}
+.mcpedia-container06 {
+  flex: 1;
+  width: 100%;
+  margin: var(--dl-space-space-unit9);
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.mcpedia-card {
+  flex: 1;
+  width: 255px;
+  display: flex;
+  padding: var(--dl-space-space-unitandahalfunit);
+  position: relative;
+  align-items: flex-start;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/playground_assets/minecraft-1500w.jpg");
+}
+.mcpedia-container07 {
+  display: flex;
+  z-index: 2;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mcpedia-text13 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-halfunit8);
+  margin-bottom: var(--dl-space-space-halfunit8);
+}
+.mcpedia-container08 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  position: relative;
+}
+.mcpedia-link {
+  display: contents;
+}
+.mcpedia-container09 {
+  top: auto;
+  flex: 0 0 auto;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: var(--dl-space-space-unit9);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  text-decoration: none;
+  background-color: rgba(0,0,0,.4);
+}
+.mcpedia-container10 {
+  flex: 1;
+  width: 100%;
+  margin: var(--dl-space-space-unit9);
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.mcpedia-card1 {
+  flex: 1;
+  width: 255px;
+  display: flex;
+  padding: var(--dl-space-space-unitandahalfunit);
+  position: relative;
+  align-items: flex-start;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://wallpapers.com/images/high/minecraft-great-cave-walls-forest-hd-mm9b3bqe6qc6s96f.webp');
+}
+.mcpedia-container11 {
+  display: flex;
+  z-index: 2;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mcpedia-text14 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-halfunit8);
+  margin-bottom: var(--dl-space-space-halfunit8);
+}
+.mcpedia-container12 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  position: relative;
+}
+.mcpedia-link1 {
+  display: contents;
+}
+.mcpedia-container13 {
+  top: auto;
+  flex: 0 0 auto;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: var(--dl-space-space-unit9);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  text-decoration: none;
+  background-color: rgba(0,0,0,.4);
+}
+.mcpedia-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 0px #2d2d2d;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  background-color: #000000;
+}
+.mcpedia-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  height: 297px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fiveunits);
+  border-color: #313133;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  border-top-width: 1px;
+}
+.mcpedia-main {
+  gap: 240px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.mcpedia-branding1 {
+  gap: var(--dl-space-space-twounits);
+  width: 400px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mcpedia-image2 {
+  width: 120px;
+  object-fit: cover;
+}
+.mcpedia-bottom {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media(max-width: 991px) {
+  .mcpedia-hero {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+  }
+  .mcpedia-hero-content {
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: 111px;
+  }
+  .mcpedia-container03 {
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: var(--dl-space-space-tripleunit);
+  }
+  .mcpedia-container06 {
+    width: 100%;
+  }
+  .mcpedia-card {
+    width: 100%;
+    background-size: cover;
+    background-image: url("public/playground_assets/minecraft-1500w.jpg");
+  }
+  .mcpedia-text13 {
+    color: var(--dl-color-gray-white);
+  }
+  .mcpedia-container10 {
+    width: 100%;
+  }
+  .mcpedia-card1 {
+    width: 100%;
+    background-size: cover;
+    background-image: url('https://wallpapers.com/images/high/minecraft-great-cave-walls-forest-hd-mm9b3bqe6qc6s96f.webp');
+  }
+  .mcpedia-text14 {
+    color: var(--dl-color-gray-white);
+  }
+  .mcpedia-content {
+    border-top-width: 0px;
+  }
+  .mcpedia-main {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .mcpedia-branding1 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .mcpedia-burger-menu {
+    display: flex;
+  }
+  .mcpedia-heading {
+    font-size: 60px;
+  }
+  .mcpedia-profile {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .mcpedia-container03 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .mcpedia-container04 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .mcpedia-text02 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .mcpedia-container06 {
+    margin-top: var(--dl-space-space-doubleunit);
+  }
+  .mcpedia-container10 {
+    margin-top: var(--dl-space-space-doubleunit);
+  }
+  .mcpedia-footer {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .mcpedia-branding {
+    padding-top: var(--dl-space-space-unit);
+  }
+  .mcpedia-hamburger {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .mcpedia-icon {
+    width: 30px;
+  }
+  .mcpedia-mobile-menu {
+    padding: 16px;
+  }
+  .mcpedia-hero-content {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .mcpedia-heading {
+    font-size: 36px;
+  }
+  .mcpedia-bottom {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+    justify-content: center;
+  }
+}
