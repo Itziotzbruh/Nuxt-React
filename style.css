@@ -75,7 +75,10 @@
   --dl-space-space-fiveunits1: 80px;
   --dl-space-space-fiveunits2: 80px;
   --dl-space-space-fiveunits3: 80px;
+  --dl-space-space-fiveunits4: 80px;
   --dl-space-space-fourunits1: 4rem;
+  --dl-space-space-fourunits2: 64px;
+  --dl-space-space-halfunit10: 8px;
   --dl-space-space-threeunits: 48px;
   --dl-space-space-tripleunit: 3rem;
   --dl-space-space-unitandhalf: 1.5rem;
@@ -242,6 +245,23 @@
   -slides-to-show: 3;
 }
 
+.accordion1 {
+  color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  border-color: rgba(255, 255, 255, 0.2);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.accordion1:hover {
+  color: white;
+  border-color: white;
+}
 .Medium {
   font-size: 1.125rem;
   font-family: Open Sans;
@@ -371,5 +391,9 @@
 @media(max-width: 479px) {
   .button {
     width: 100%;
+  }
+  .accordion1 {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
