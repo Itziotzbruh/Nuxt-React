@@ -76,6 +76,7 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
   background-color: #98c8ff;
+  -webkit-tap-highlight-color: transparent;
 }
 .hall-hamburger:hover {
   opacity: .5;
@@ -498,7 +499,7 @@
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
   background-size: cover;
-  background-image: url("public/playground_assets/2023-01-21_06.48.43-800h.png");
+  background-image: url("public/playground_assets/2023-01-21_06.48.43-1500w.png");
 }
 .hall-container04 {
   display: flex;
@@ -567,10 +568,92 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.hall-card2 {
+  flex: 1;
+  width: 255px;
+  display: flex;
+  padding: var(--dl-space-space-unitandahalfunit);
+  position: relative;
+  align-items: flex-start;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://img.uhdpaper.com/wallpaper/suzume-no-tojimari-anime-46@1@k-thumb.jpg?dl');
+}
+.hall-container08 {
+  display: flex;
+  z-index: 2;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hall-text12 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-halfunit8);
+  margin-bottom: var(--dl-space-space-halfunit8);
+}
+.hall-text13 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-unit9);
+  font-weight: 400;
+  margin-bottom: var(--dl-space-space-unit9);
+}
+.hall-container09 {
+  display: flex;
+  position: relative;
+}
+.hall-button2 {
+  color: var(--dl-color-blue-500);
+  display: flex;
+  padding-top: var(--dl-space-space-halfunit8);
+  border-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit8);
+  background-color: transparent;
+}
+.hall-text14 {
+  color: var(--dl-color-gray-white);
+  margin-right: var(--dl-space-space-halfunit8);
+}
+.hall-icon15 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.hall-container10 {
+  top: auto;
+  flex: 0 0 auto;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: var(--dl-space-space-unit9);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  background-color: rgba(0,0,0,.4);
+  -webkit-tap-highlight-color: transparent;
+}
+.hall-container11 {
+  flex: 1;
+  width: 100%;
+  margin: var(--dl-space-space-unit9);
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 .hall-navlink3 {
   display: contents;
 }
-.hall-card2 {
+.hall-card3 {
   flex: 1;
   width: 255px;
   display: flex;
@@ -584,19 +667,21 @@
   background-size: cover;
   text-decoration: none;
   background-image: url("public/playground_assets/29a0b495840516b71597e6674fe72256-1500w.jpg");
+  transition-delay: 2s;
+  -webkit-tap-highlight-color:: transparent;
 }
-.hall-container08 {
+.hall-container12 {
   display: flex;
   z-index: 2;
   align-items: flex-start;
   flex-direction: column;
 }
-.hall-text12 {
+.hall-text15 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
 }
-.hall-container09 {
+.hall-container13 {
   display: flex;
   position: relative;
 }
@@ -743,7 +828,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.hall-text13 {
+.hall-text16 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
@@ -786,6 +871,12 @@
     width: 100%;
   }
   .hall-card2 {
+    width: 100%;
+  }
+  .hall-container11 {
+    width: 100%;
+  }
+  .hall-card3 {
     width: 100%;
   }
   .hall-faq {
@@ -832,7 +923,7 @@
   .hall-branding1 {
     width: 100%;
   }
-  .hall-text13 {
+  .hall-text16 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;
@@ -897,6 +988,9 @@
     margin-top: var(--dl-space-space-doubleunit);
   }
   .hall-container07 {
+    margin-top: var(--dl-space-space-doubleunit);
+  }
+  .hall-container11 {
     margin-top: var(--dl-space-space-doubleunit);
   }
   .hall-faq {

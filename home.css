@@ -1,3 +1,22 @@
+.outline-gray-button1-container {
+  display: flex;
+  position: relative;
+}
+.outline-gray-button1-button {
+  color: #ffffff;
+  outlinr: none;
+  font-style: normal;
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  border-color: var(--dl-color-secondary-200);
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  border-radius: 1.875rem;
+  padding-right: var(--dl-space-space-unitandahalfunit);
+  letter-spacing: -0.025rem;
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+  background-color: #2b2b2b;
+}
+
 .home-container {
   width: 100%;
   display: flex;
@@ -57,6 +76,7 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
   background-color: #98c8ff;
+  -webkit-tap-highlight-color: transparent;
 }
 .home-hamburger:hover {
   opacity: .5;
@@ -181,6 +201,7 @@
 .home-navlink3 {
   text-decoration: none;
   background-color: #94b6ff;
+  -webkit-tap-highlight-color: transparent;
 }
 .home-note {
   width: 100%;
@@ -594,6 +615,49 @@
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
+.home-container3 {
+  flex: 1;
+  width: 100%;
+  margin: var(--dl-space-space-unit9);
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home-navlink4 {
+  display: contents;
+}
+.home-card {
+  flex: 1;
+  width: 255px;
+  display: flex;
+  padding: var(--dl-space-space-unitandahalfunit);
+  position: relative;
+  align-items: flex-start;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url('https://butwhytho.net/wp-content/uploads/2023/04/Oshi-no-Ko-Ep-1%E2%80%94-But-Why-Tho.jpg?ezimgfmt=ng:webp/ngcb1');
+  -webkit-tap-highlight-color: transparent;
+}
+.home-container4 {
+  display: flex;
+  z-index: 2;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-text17 {
+  color: #000000;
+  margin-top: var(--dl-space-space-halfunit8);
+  margin-bottom: var(--dl-space-space-halfunit8);
+}
+.home-container5 {
+  display: flex;
+  position: relative;
+}
 .home-footer {
   width: 100%;
   display: flex;
@@ -640,7 +704,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text17 {
+.home-text18 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
@@ -688,6 +752,12 @@
     align-items: flex-start;
     flex-direction: column-reverse;
   }
+  .home-container3 {
+    width: 100%;
+  }
+  .home-card {
+    width: 100%;
+  }
   .home-content3 {
     border-top-width: 0px;
   }
@@ -698,7 +768,7 @@
   .home-branding1 {
     width: 100%;
   }
-  .home-text17 {
+  .home-text18 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;
@@ -811,6 +881,9 @@
   }
   .home-heading3 {
     font-size: 40px;
+  }
+  .home-container3 {
+    margin-top: var(--dl-space-space-doubleunit);
   }
   .home-footer {
     padding-left: var(--dl-space-space-oneandhalfunits);
