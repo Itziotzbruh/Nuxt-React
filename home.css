@@ -38,19 +38,21 @@
 }
 .home-video {
   top: 0px;
-  left: 0px;
+  right: 0px;
   width: 100%;
   filter: opacity(0.6);
   height: 100%;
+  margin: auto;
   position: absolute;
   object-fit: cover;
 }
 .home-navbar {
-  width: 100%;
   display: flex;
   z-index: 1000;
   position: relative;
+  flex-wrap: wrap;
   max-width: var(--dl-size-size-maxwidth);
+  align-self: stretch;
   align-items: center;
   justify-content: space-between;
 }
@@ -166,13 +168,17 @@
   display: flex;
   z-index: 100;
   max-width: var(--dl-size-size-maxwidth);
-  align-items: flex-start;
+  align-self: center;
+  align-items: center;
+  padding-right: 61px;
   flex-direction: column;
   justify-content: center;
 }
 .home-header-container {
   gap: var(--dl-space-space-oneandhalfunits);
+  width: 386px;
   display: flex;
+  align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
@@ -190,7 +196,7 @@
   font-weight: 500;
 }
 .home-text {
-  font-size: 60px;
+  font-family: Impact;
 }
 .home-caption {
   color: rgb(255, 255, 255);
@@ -199,6 +205,7 @@
   line-height: 36px;
 }
 .home-navlink3 {
+  align-self: flex-start;
   text-decoration: none;
   background-color: #94b6ff;
   -webkit-tap-highlight-color: transparent;
@@ -219,6 +226,7 @@
   color: rgb(124, 124, 128);
   font-size: 40px;
   max-width: 800px;
+  align-self: flex-start;
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
@@ -327,16 +335,6 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-text05 {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-text06 {
-  color: rgb(124, 124, 128);
-  line-height: 24px;
-}
 .home-text07 {
   color: rgb(255, 255, 255);
   font-size: 24px;
@@ -354,6 +352,16 @@
   font-weight: 500;
 }
 .home-text10 {
+  color: rgb(124, 124, 128);
+  line-height: 24px;
+}
+.home-text11 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text12 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -536,7 +544,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text13 {
+.home-text15 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -561,7 +569,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text14 {
+.home-text16 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -586,7 +594,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text15 {
+.home-text17 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -611,7 +619,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text16 {
+.home-text18 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -649,7 +657,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text17 {
+.home-text19 {
   color: #000000;
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
@@ -704,7 +712,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text18 {
+.home-text20 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
@@ -768,13 +776,22 @@
   .home-branding1 {
     width: 100%;
   }
-  .home-text18 {
+  .home-text20 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;
   }
 }
 @media(max-width: 767px) {
+  .home-video {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 977px;
+    margin: auto;
+    position: absolute;
+  }
   .home-burger-menu {
     display: flex;
   }
@@ -891,6 +908,9 @@
   }
 }
 @media(max-width: 479px) {
+  .home-video {
+    height: 708px;
+  }
   .home-branding {
     padding-top: var(--dl-space-space-unit);
   }
@@ -910,10 +930,14 @@
     gap: var(--dl-space-space-threeunits);
   }
   .home-heading {
-    font-size: 36px;
+    color: rgb(255, 255, 255);
+  }
+  .home-text {
+    font-size: 60px;
   }
   .home-caption {
     font-size: 16px;
+    align-self: flex-start;
     line-height: 24px;
   }
   .home-navlink3 {
@@ -929,13 +953,13 @@
   .home-image1 {
     height: 400px;
   }
-  .home-text05 {
-    font-size: 18px;
-  }
   .home-text07 {
     font-size: 18px;
   }
   .home-text09 {
+    font-size: 18px;
+  }
+  .home-text11 {
     font-size: 18px;
   }
   .home-heading2 {

@@ -39,8 +39,12 @@
   --dl-space-space-unit7: 1rem;
   --dl-space-space-unit8: 1rem;
   --dl-space-space-unit9: 1rem;
+  --dl-color-scheme-white: #FFFFFF;
   --dl-size-size-maxwidth: 1400px;
   --dl-space-space-unit10: 1rem;
+  --dl-space-space-unit11: 16px;
+  --dl-space-space-unit12: 16px;
+  --dl-space-space-unit13: 16px;
   --dl-color-secondary-100: #111729ff;
   --dl-color-secondary-200: #8392abff;
   --dl-color-secondary-300: #1e293bff;
@@ -52,6 +56,8 @@
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 6rem;
   --dl-space-space-twounits: 32px;
+  --dl-color-scheme-darkblue: #0d1f3aff;
+  --dl-color-scheme-darkgray: #9095a7ff;
   --dl-radius-radius-radius1: 1rem;
   --dl-radius-radius-radius2: 2px;
   --dl-radius-radius-radius4: 4px;
@@ -69,6 +75,7 @@
   --dl-space-space-halfunit8: 0.5rem;
   --dl-space-space-halfunit9: 0.5rem;
   --dl-space-space-sixunits1: 6rem;
+  --dl-space-space-sixunits2: 96px;
   --dl-radius-radius-radius25: 0.25rem;
   --dl-radius-radius-radius75: 0.75rem;
   --dl-space-space-doubleunit: 2rem;
@@ -76,9 +83,16 @@
   --dl-space-space-fiveunits2: 80px;
   --dl-space-space-fiveunits3: 80px;
   --dl-space-space-fiveunits4: 80px;
+  --dl-space-space-fiveunits5: 80px;
+  --dl-space-space-fiveunits6: 80px;
   --dl-space-space-fourunits1: 4rem;
   --dl-space-space-fourunits2: 64px;
+  --dl-space-space-fourunits3: 64px;
+  --dl-space-space-fourunits4: 64px;
   --dl-space-space-halfunit10: 8px;
+  --dl-space-space-halfunit11: 8px;
+  --dl-space-space-halfunit12: 8px;
+  --dl-space-space-halfunit13: 8px;
   --dl-space-space-threeunits: 48px;
   --dl-space-space-tripleunit: 3rem;
   --dl-space-space-unitandhalf: 1.5rem;
@@ -262,6 +276,28 @@
   color: white;
   border-color: white;
 }
+.button-link {
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 24px;
+  box-shadow: none;
+  font-style: normal;
+  align-items: center;
+  font-weight: 400;
+  line-height: 36px;
+  padding-top: var(--dl-space-space-threeunits);
+  border-color: rgba(255, 255, 255, 0.3);
+  border-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: transparent;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
 .Medium {
   font-size: 1.125rem;
   font-family: Open Sans;
@@ -386,6 +422,10 @@
   .value {
     padding-top: 0px;
     padding-bottom: var(--dl-space-space-unit);
+  }
+  .button-link {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
 @media(max-width: 479px) {
