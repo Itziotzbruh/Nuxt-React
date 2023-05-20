@@ -1099,14 +1099,15 @@
     margin-left: 0px;
   }
   .home-navlink {
-    line-height: 1;
+    color: #a5d5ff;
+    line-height: 1.5;
   }
   .home-navlink01 {
     font-size: 30px;
-    font-style: normal;
-    font-family: Noto Sans;
+    font-style: inherit;
+    font-family: Maven Pro;
     font-weight: 600;
-    line-height: 1;
+    line-height: 1.5;
     text-decoration: none;
   }
   .home-navlink02 {
