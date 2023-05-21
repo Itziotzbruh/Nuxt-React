@@ -1292,25 +1292,26 @@
   }
   .home-heading {
     color: rgb(255, 255, 255);
-    font-size: 100px;
-    font-family: Verdana;
-    font-weight: 500;
   }
   .home-text04 {
-    font-family: Verdana;
-    font-weight: 400;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
   }
   .home-text05 {
-    font-family: Verdana;
-    font-weight: 400;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
   }
   .home-text06 {
-    font-family: Verdana;
-    font-weight: 400;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
   }
   .home-text07 {
-    font-family: Arial;
-    font-weight: 400;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
   }
   .home-caption {
     color: rgb(255, 255, 255);
