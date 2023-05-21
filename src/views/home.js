@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
+import OutlineGrayButton1 from '../components/outline-gray-button1'
 import './home.css'
 
 const Home = (props) => {
@@ -62,23 +63,46 @@ const Home = (props) => {
                 className="home-nav1"
               >
                 <Link to="/" className="home-navlink">
-                  About
+                  About Nuxt
                 </Link>
-                <Link to="/page" className="home-navlink1">
-                  Join now!
+                <Link to="/inv" className="home-navlink01">
+                  Group
                 </Link>
-                <Link to="/page" className="home-navlink2">
-                  Minecraft SMP
+                <Link to="/hall" className="home-navlink02">
+                  <span>
+                    React
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>SMP</span>
                 </Link>
-                <Link to="/page1" className="home-navlink3">
-                  Team
+                <Link to="/hall" className="home-navlink03">
+                  <span className="home-text02">
+                    Zen&apos;s
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>Artclub</span>
+                </Link>
+                <Link to="/hall" className="home-navlink04">
+                  Minecraftpedia
+                </Link>
+                <Link to="/hall" className="home-navlink05">
+                  Plugin Guide
+                </Link>
+                <Link to="/hall" className="home-navlink06">
+                  Staff
+                </Link>
+                <Link to="/hall" className="home-navlink07">
+                  Anime Dynasty
                 </Link>
               </nav>
-              <div className="home-container2">
-                <Link to="/page" className="home-login button">
-                  Join Now!
-                </Link>
-              </div>
             </div>
           </div>
         </header>
@@ -86,13 +110,19 @@ const Home = (props) => {
           <div className="home-header-container">
             <div className="home-header">
               <h1 className="home-heading">
-                <span className="home-text">Nuxt</span>
+                <span className="home-text04">Nuxt</span>
+                <br className="home-text05"></br>
+                <span className="home-text06">Community</span>
+                <span className="home-text07"> </span>
                 <br></br>
               </h1>
             </div>
-            <p className="home-caption">COMMUNITY</p>
+            <p className="home-caption">
+              <span>Fun | Gaming | Design | And much more.</span>
+              <br></br>
+            </p>
           </div>
-          <Link to="/page" className="home-navlink4 button">
+          <Link to="/inv" className="home-navlink08 button">
             <span>
               <span>Join Now!</span>
               <br></br>
@@ -127,7 +157,7 @@ new BlazeSlider(el, {
       </section>
       <section className="home-get-started">
         <div className="home-header-container1">
-          <div className="home-header01">
+          <div className="home-header1">
             <h2 className="home-heading1">Apa sih... Keuntungan bergabung?</h2>
             <p className="home-caption2">
               Pastinya dengan bergabung ke sebuah komunitas, Mempunyai Tujuan
@@ -152,8 +182,8 @@ new BlazeSlider(el, {
         <div className="home-content">
           <div className="home-objectives-list">
             <div className="objective">
-              <h3 className="home-text05">Teman</h3>
-              <p className="home-text06">
+              <h3 className="home-text14">Teman</h3>
+              <p className="home-text15">
                 Kesepian? Hmm mugkin kamu bisa bergabung disini. Kalian bisa
                 bertemu sesama player minecraft disini, Baik java atau bedrock.
                 <span
@@ -164,14 +194,14 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective home-objective1">
-              <h3 className="home-text07">Nice Admin&amp;Member!</h3>
-              <p className="home-text08">
+              <h3 className="home-text16">Nice Admin&amp;Member!</h3>
+              <p className="home-text17">
                 Pastinya, Kalian gamau komunitas yang toxic :)
               </p>
             </div>
             <div className="objective home-objective2">
-              <h3 className="home-text09">Event!</h3>
-              <p className="home-text10">
+              <h3 className="home-text18">Event!</h3>
+              <p className="home-text19">
                 Berbagai evernt terkadang tersedia! mulai dari SMP dll.
               </p>
             </div>
@@ -179,9 +209,9 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="home-growth">
-        <div className="home-content01">
-          <div className="home-header02">
-            <div className="home-header03">
+        <div className="home-content1">
+          <div className="home-header2">
+            <div className="home-header3">
               <h2 className="home-heading2">
                 <span>Tersedia : Minecraft Crossplay SMP!</span>
                 <br></br>
@@ -199,27 +229,26 @@ new BlazeSlider(el, {
           </div>
         </div>
         <div className="home-images">
-          <div className="home-square"></div>
           <img
             alt="image"
-            src="/playground_assets/2023-01-21_06.48.43-800h.png"
+            src="/playground_assets/picsart-23-04-20-06-30-25-933-1400w.png"
             className="home-image2"
           />
         </div>
       </section>
       <section className="home-experience">
         <div className="home-images1">
-          <div className="home-square1"></div>
+          <div className="home-square"></div>
           <img
             alt="image"
-            src="/playground_assets/-1611499537840-1400w.webp"
+            src="/playground_assets/minecraft-1400w.jpg"
             className="home-image3"
           />
         </div>
-        <div className="home-content02">
-          <div className="home-header04">
+        <div className="home-content2">
+          <div className="home-header4">
             <div className="home-header-container2">
-              <div className="home-header05">
+              <div className="home-header5">
                 <h2 className="home-heading3">
                   Nuxt Team memastikan bahwa komunitas ini
                 </h2>
@@ -232,7 +261,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text13">
+                <span className="home-text22">
                   Tidak adanya konten berbau 18+
                 </span>
               </div>
@@ -242,7 +271,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text14">Free talks &amp; Speech</span>
+                <span className="home-text23">Free talks &amp; Speech</span>
               </div>
               <div className="home-check2">
                 <div className="home-mark2">
@@ -250,7 +279,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text15">
+                <span className="home-text24">
                   Best Minecraft smp experience
                 </span>
               </div>
@@ -260,72 +289,26 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text16">Up to Date</span>
+                <span className="home-text25">Up to Date</span>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="home-faq">
-        <div className="home-header06">
-          <h2 className="home-heading4">
-            F.A.O ( PERTANYAAN YANG SERING DITANYAKAN )
-          </h2>
-        </div>
-        <div className="home-content03">
-          <div className="home-column">
-            <div className="home-element">
-              <h3 className="home-header07">-</h3>
-              <p className="home-content04">
-                -
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="home-element1">
-              <h3 className="home-header08">-</h3>
-              <p className="home-content05">-</p>
-            </div>
-            <div className="home-element2">
-              <h3 className="home-header09">-</h3>
-              <p className="home-content06">-</p>
+      <div className="home-container2">
+        <Link to="/commmunity" className="home-navlink09">
+          <div className="home-card button">
+            <div className="home-container3">
+              <h1 className="home-text26">Mau Join?</h1>
+              <div className="home-container4">
+                <OutlineGrayButton1 button="Join Now!"></OutlineGrayButton1>
+              </div>
             </div>
           </div>
-          <div className="home-column1">
-            <div className="home-element3">
-              <h3 className="home-header10">-</h3>
-              <p className="home-content07">-</p>
-            </div>
-            <div className="home-element4">
-              <h3 className="home-header11">-</h3>
-              <p className="home-content08">
-                -
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="home-element5">
-              <h3 className="home-header12">-</h3>
-              <p className="home-content09">
-                -
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </Link>
+      </div>
       <div className="home-footer">
-        <div className="home-content10">
+        <div className="home-content3">
           <div className="home-main">
             <div className="home-branding1">
               <img
@@ -336,20 +319,9 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-bottom">
-            <span className="home-text17">
+            <span className="home-text27">
               © 2020 - 2023 NuxtTeam- All rights reserved
             </span>
-            <button
-              data-role="scroll-top"
-              type="button"
-              className="home-button1 button"
-            >
-              <img
-                alt="image"
-                src="/playground_assets/arrow.svg"
-                className="home-image5"
-              />
-            </button>
           </div>
         </div>
       </div>
