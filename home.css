@@ -276,22 +276,6 @@
   line-height: 52px;
   margin-right: 158px;
 }
-.home-slides {
-  gap: var(--dl-space-space-fourunits);
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
-}
-.home-slider {
-  gap: var(--dl-space-space-fiveunits);
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
 .home-get-started {
   width: 100%;
   display: flex;
@@ -379,33 +363,33 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-text14 {
+.home-text15 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-}
-.home-text15 {
-  color: rgb(124, 124, 128);
-  line-height: 24px;
 }
 .home-text16 {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-text17 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
-.home-text18 {
+.home-text17 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
+.home-text18 {
+  color: rgb(124, 124, 128);
+  line-height: 24px;
+}
 .home-text19 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text20 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -588,7 +572,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text22 {
+.home-text23 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -613,7 +597,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text23 {
+.home-text24 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -638,7 +622,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text24 {
+.home-text25 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -663,7 +647,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text25 {
+.home-text26 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -701,7 +685,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text26 {
+.home-text27 {
   color: #000000;
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
@@ -756,7 +740,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text27 {
+.home-text28 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
@@ -958,9 +942,6 @@
   .home-heading {
     font-family: Verdana;
   }
-  .home-slider {
-    gap: var(--dl-space-space-twounits);
-  }
   .home-content {
     gap: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
@@ -1010,7 +991,7 @@
   .home-branding1 {
     width: 100%;
   }
-  .home-text27 {
+  .home-text28 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;
@@ -1097,6 +1078,9 @@
   .home-text06 {
     font-weight: 100;
   }
+  .home-text07 {
+    font-weight: 100;
+  }
   .home-note {
     align-items: flex-start;
     padding-top: var(--dl-space-space-threeunits);
@@ -1109,12 +1093,6 @@
     max-width: 90%;
     line-height: 23px;
     margin-right: 0px;
-  }
-  .home-slides {
-    gap: var(--dl-space-space-oneandhalfunits);
-  }
-  .home-slider {
-    gap: var(--dl-space-space-oneandhalfunits);
   }
   .home-get-started {
     padding-top: var(--dl-space-space-threeunits);
@@ -1292,26 +1270,42 @@
   }
   .home-heading {
     color: rgb(255, 255, 255);
+    width: 390px;
+    font-size: 100px;
+    font-family: Verdana;
+    font-weight: 500;
   }
   .home-text04 {
     font-style: normal;
     font-family: Lato;
     font-weight: 700;
+    line-height: 0.6;
   }
   .home-text05 {
     font-style: normal;
     font-family: Lato;
     font-weight: 700;
+    line-height: 0.9;
   }
   .home-text06 {
     font-style: normal;
     font-family: Lato;
     font-weight: 700;
+    line-height: 0.4;
   }
   .home-text07 {
+    font-size: 70px;
     font-style: normal;
     font-family: Lato;
     font-weight: 700;
+    line-height: 0.6;
+  }
+  .home-text08 {
+    font-size: 70px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 0.6;
   }
   .home-caption {
     color: rgb(255, 255, 255);
@@ -1332,13 +1326,13 @@
   .home-image1 {
     height: 400px;
   }
-  .home-text14 {
+  .home-text15 {
     font-size: 18px;
   }
-  .home-text16 {
+  .home-text17 {
     font-size: 18px;
   }
-  .home-text18 {
+  .home-text19 {
     font-size: 18px;
   }
   .home-heading2 {
