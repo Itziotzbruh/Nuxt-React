@@ -137,54 +137,76 @@
   flex-direction: column;
 }
 .home-navlink {
+  color: #aae2ff;
   font-size: 30px;
-  font-family: Source Sans Pro;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .home-navlink01 {
   font-size: 30px;
   font-style: normal;
-  font-family: Noto Sans;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .home-navlink02 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .home-navlink03 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .home-navlink04 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .home-navlink05 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .home-navlink06 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .home-navlink07 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-}
-.home-container2 {
-  flex: 0 0 auto;
-  width: auto;
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-}
-.home-login {
-  margin-right: var(--dl-space-space-twounits);
-  text-decoration: none;
-  background-color: #464646;
 }
 .home-hero-content {
   gap: var(--dl-space-space-fiveunits);
@@ -645,7 +667,7 @@
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
-.home-container3 {
+.home-container2 {
   flex: 1;
   width: 100%;
   margin: var(--dl-space-space-unit9);
@@ -673,7 +695,7 @@
   background-image: url('https://butwhytho.net/wp-content/uploads/2023/04/Oshi-no-Ko-Ep-1%E2%80%94-But-Why-Tho.jpg?ezimgfmt=ng:webp/ngcb1');
   -webkit-tap-highlight-color: transparent;
 }
-.home-container4 {
+.home-container3 {
   display: flex;
   z-index: 2;
   align-items: flex-start;
@@ -684,7 +706,7 @@
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
 }
-.home-container5 {
+.home-container4 {
   display: flex;
   position: relative;
 }
@@ -743,38 +765,120 @@
   .home-mobile-menu {
     border-radius: var(--dl-radius-radius-radius4);
   }
+  .home-navlink {
+    color: #ffb0b0;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-navlink01 {
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-navlink02 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+  }
+  .home-navlink03 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-navlink04 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-navlink05 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-navlink06 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-navlink07 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
   .home-heading {
     font-family: Verdana;
   }
 }
 @media(max-width: 1200px) {
+  .home-navlink {
+    color: #a7fffc;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-navlink01 {
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
   .home-navlink02 {
-    line-height: 0.8;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
   }
   .home-navlink03 {
-    line-height: 0.8;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
   }
   .home-navlink04 {
-    line-height: 0.8;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
   }
   .home-navlink05 {
     font-size: 30px;
     font-style: normal;
-    font-family: Nunito;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink06 {
-    line-height: 0.8;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
   }
   .home-navlink07 {
-    line-height: 0.8;
-  }
-  .home-login {
-    border-radius: 15px;
-    padding-right: 28px;
-    padding-bottom: 0px;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
   }
   .home-heading {
     font-family: Verdana;
@@ -785,6 +889,7 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
   }
   .home-navlink {
+    color: #9af5ff;
     font-size: 30px;
     font-family: Lato;
     font-weight: 600;
@@ -847,16 +952,6 @@
     line-height: 1;
     text-decoration: none;
   }
-  .home-login {
-    font-size: 20px;
-    font-family: Source Sans Pro;
-    padding-top: 11px;
-    padding-left: 13px;
-    border-radius: 15px;
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: 14px;
-    backdrop-filter: blur;
-  }
   .home-hero-content {
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
@@ -899,7 +994,7 @@
     align-items: flex-start;
     flex-direction: column-reverse;
   }
-  .home-container3 {
+  .home-container2 {
     width: 100%;
   }
   .home-card {
@@ -1103,7 +1198,7 @@
   .home-heading3 {
     font-size: 40px;
   }
-  .home-container3 {
+  .home-container2 {
     margin-top: var(--dl-space-space-doubleunit);
   }
   .home-footer {
@@ -1134,7 +1229,7 @@
     background-color: rgba(0, 0, 0, 0.83);
   }
   .home-container1 {
-    margin-bottom: 13px;
+    margin-bottom: 42px;
   }
   .home-navlink {
     color: #a5d5ff;
@@ -1198,22 +1293,24 @@
   .home-heading {
     color: rgb(255, 255, 255);
     font-size: 100px;
+    font-family: Verdana;
     font-weight: 500;
   }
   .home-text04 {
     font-family: Verdana;
-    font-weight: 100;
+    font-weight: 400;
   }
   .home-text05 {
     font-family: Verdana;
-    font-weight: 100;
+    font-weight: 400;
   }
   .home-text06 {
     font-family: Verdana;
-    font-weight: 100;
+    font-weight: 400;
   }
   .home-text07 {
     font-family: Arial;
+    font-weight: 400;
   }
   .home-caption {
     color: rgb(255, 255, 255);

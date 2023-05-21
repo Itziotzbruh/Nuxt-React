@@ -668,7 +668,7 @@
   text-decoration: none;
   background-image: url("public/playground_assets/29a0b495840516b71597e6674fe72256-1500w.jpg");
   transition-delay: 2s;
-  -webkit-tap-highlight-color:: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 .hall-container12 {
   display: flex;
