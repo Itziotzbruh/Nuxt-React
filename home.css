@@ -173,10 +173,6 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .home-container2 {
   flex: 0 0 auto;
   width: auto;
@@ -221,16 +217,8 @@
   color: rgb(255, 255, 255);
   font-size: 100px;
   max-width: 790px;
+  font-family: Verdana;
   font-weight: 500;
-}
-.home-text02 {
-  font-family: Arial;
-}
-.home-text04 {
-  font-family: Arial;
-}
-.home-text05 {
-  font-family: Arial;
 }
 .home-caption {
   color: rgb(255, 255, 255);
@@ -238,7 +226,7 @@
   max-width: 600px;
   line-height: 36px;
 }
-.home-navlink09 {
+.home-navlink08 {
   align-self: flex-start;
   text-decoration: none;
   background-color: #94b6ff;
@@ -369,16 +357,6 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-text12 {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-text13 {
-  color: rgb(124, 124, 128);
-  line-height: 24px;
-}
 .home-text14 {
   color: rgb(255, 255, 255);
   font-size: 24px;
@@ -396,6 +374,16 @@
   font-weight: 500;
 }
 .home-text17 {
+  color: rgb(124, 124, 128);
+  line-height: 24px;
+}
+.home-text18 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text19 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -578,7 +566,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text20 {
+.home-text22 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -603,7 +591,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text21 {
+.home-text23 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -628,7 +616,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text22 {
+.home-text24 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -653,7 +641,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text23 {
+.home-text25 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -666,7 +654,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-navlink10 {
+.home-navlink09 {
   display: contents;
 }
 .home-card {
@@ -691,7 +679,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text24 {
+.home-text26 {
   color: #000000;
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
@@ -746,10 +734,18 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text25 {
+.home-text27 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
+}
+@media(max-width: 1600px) {
+  .home-mobile-menu {
+    border-radius: var(--dl-radius-radius-radius4);
+  }
+  .home-heading {
+    font-family: Verdana;
+  }
 }
 @media(max-width: 1200px) {
   .home-navlink02 {
@@ -762,7 +758,12 @@
     line-height: 0.8;
   }
   .home-navlink05 {
-    line-height: 0.8;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Nunito;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
   }
   .home-navlink06 {
     line-height: 0.8;
@@ -770,13 +771,13 @@
   .home-navlink07 {
     line-height: 0.8;
   }
-  .home-navlink08 {
-    line-height: 0.8;
-  }
   .home-login {
     border-radius: 15px;
     padding-right: 28px;
     padding-bottom: 0px;
+  }
+  .home-heading {
+    font-family: Verdana;
   }
 }
 @media(max-width: 991px) {
@@ -785,73 +786,65 @@
   }
   .home-navlink {
     font-size: 30px;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink01 {
     font-size: 30px;
     font-style: normal;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink02 {
     font-size: 30px;
     font-style: normal;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink03 {
     font-size: 30px;
     font-style: normal;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink04 {
     font-size: 30px;
     font-style: normal;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink05 {
     font-size: 30px;
     font-style: normal;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink06 {
     font-size: 30px;
     font-style: normal;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink07 {
     font-size: 30px;
     font-style: normal;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
-    text-decoration: none;
-  }
-  .home-navlink08 {
-    font-size: 30px;
-    font-style: normal;
-    font-family: Source Sans Pro;
-    font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-login {
@@ -866,6 +859,9 @@
   }
   .home-hero-content {
     padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-heading {
+    font-family: Verdana;
   }
   .home-slider {
     gap: var(--dl-space-space-twounits);
@@ -919,7 +915,7 @@
   .home-branding1 {
     width: 100%;
   }
-  .home-text25 {
+  .home-text27 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;
@@ -934,40 +930,77 @@
   .home-burger-menu {
     display: flex;
   }
+  .home-navlink {
+    color: #c2fffc;
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .home-navlink01 {
+    font-size: 30px;
+    font-style: inherit;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .home-navlink02 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
   .home-navlink03 {
-    line-height: 0.8;
+    font-family: Lato;
+    line-height: 1;
+    text-decoration: none;
   }
   .home-navlink04 {
-    line-height: 0.8;
+    font-family: Lato;
+    line-height: 1;
   }
   .home-navlink05 {
-    line-height: 0.8;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
   }
   .home-navlink06 {
     font-size: 30px;
     font-style: normal;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink07 {
     font-size: 30px;
     font-style: normal;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 0.8;
-    text-decoration: none;
-  }
-  .home-navlink08 {
-    font-size: 30px;
-    font-style: normal;
-    font-family: Source Sans Pro;
-    font-weight: 600;
-    line-height: 0.8;
+    line-height: 1;
     text-decoration: none;
   }
   .home-heading {
-    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: Verdana;
+    font-weight: 500;
+  }
+  .home-text04 {
+    font-weight: 100;
+  }
+  .home-text05 {
+    font-weight: 100;
+  }
+  .home-text06 {
+    font-weight: 100;
   }
   .home-note {
     align-items: flex-start;
@@ -1095,37 +1128,50 @@
     width: 30px;
   }
   .home-mobile-menu {
+    width: 309px;
     padding: 16px;
     margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0.83);
+  }
+  .home-container1 {
+    margin-bottom: 13px;
   }
   .home-navlink {
     color: #a5d5ff;
-    line-height: 1.5;
+    font-family: Lato;
+    line-height: 1;
   }
   .home-navlink01 {
     font-size: 30px;
     font-style: inherit;
-    font-family: Maven Pro;
+    font-family: Lato;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1;
     text-decoration: none;
   }
   .home-navlink02 {
-    line-height: 0.7;
-  }
-  .home-text01 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
     line-height: 1;
+    text-decoration: none;
   }
   .home-navlink03 {
+    font-family: Lato;
     line-height: 1;
   }
+  .home-text02 {
+    line-height: 1.5;
+  }
   .home-navlink04 {
+    font-family: Lato;
     line-height: 1;
   }
   .home-navlink05 {
     font-size: 30px;
-    font-style: normal;
-    font-family: Source Sans Pro;
+    font-style: inherit;
+    font-family: Lato;
     font-weight: 600;
     line-height: 1;
     text-decoration: none;
@@ -1133,7 +1179,7 @@
   .home-navlink06 {
     font-size: 30px;
     font-style: inherit;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
     line-height: 1;
     text-decoration: none;
@@ -1141,15 +1187,7 @@
   .home-navlink07 {
     font-size: 30px;
     font-style: inherit;
-    font-family: Source Sans Pro;
-    font-weight: 600;
-    line-height: 1;
-    text-decoration: none;
-  }
-  .home-navlink08 {
-    font-size: 30px;
-    font-style: inherit;
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-weight: 600;
     line-height: 1;
     text-decoration: none;
@@ -1159,43 +1197,31 @@
   }
   .home-heading {
     color: rgb(255, 255, 255);
-  }
-  .home-text02 {
-    font-size: 60px;
-    font-family: Oxygen;
-    font-weight: 600;
-    line-height: 1;
-  }
-  .home-text03 {
-    font-size: 60px;
-    font-family: Source Sans Pro;
-    font-weight: 600;
-    line-height: 1;
+    font-size: 100px;
+    font-weight: 500;
   }
   .home-text04 {
-    font-size: 60px;
-    font-family: Oxygen;
-    font-weight: 600;
-    line-height: 1;
+    font-family: Verdana;
+    font-weight: 100;
   }
   .home-text05 {
-    font-size: 60px;
-    font-family: Oxygen;
-    font-weight: 600;
-    line-height: 0.5;
+    font-family: Verdana;
+    font-weight: 100;
+  }
+  .home-text06 {
+    font-family: Verdana;
+    font-weight: 100;
+  }
+  .home-text07 {
+    font-family: Arial;
   }
   .home-caption {
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 30px;
     align-self: flex-start;
-    line-height: 24px;
+    line-height: 36px;
   }
-  .home-text07 {
-    font-size: 20px;
-    font-family: Source Sans Pro;
-    font-weight: 600;
-  }
-  .home-navlink09 {
+  .home-navlink08 {
     text-align: center;
   }
   .home-caption1 {
@@ -1208,13 +1234,13 @@
   .home-image1 {
     height: 400px;
   }
-  .home-text12 {
-    font-size: 18px;
-  }
   .home-text14 {
     font-size: 18px;
   }
   .home-text16 {
+    font-size: 18px;
+  }
+  .home-text18 {
     font-size: 18px;
   }
   .home-heading2 {
