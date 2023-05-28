@@ -1,0 +1,49 @@
+<template>
+  <div class="outline-gray-button21-container" v-bind:class="rootClassName">
+    <button class="outline-gray-button21-button button ButtonSmall">
+      {{ button }}
+    </button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'OutlineGrayButton21',
+  props: {
+    button: {
+      type: String,
+      default: 'Button',
+    },
+    rootClassName: String,
+  },
+}
+</script>
+
+<style scoped>
+.outline-gray-button21-container {
+  display: flex;
+  position: relative;
+}
+.outline-gray-button21-button {
+  color: #ffffff;
+  outlinr: none;
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  border-color: var(--dl-color-secondary-200);
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  border-radius: 1.875rem;
+  padding-right: var(--dl-space-space-unitandahalfunit);
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+  background-color: #00a7f5;
+}
+.outline-gray-button21-button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+@media(max-width: 991px) {
+  .outline-gray-button21-button {
+    color: #000000;
+    background-color: #00deff;
+  }
+}
+</style>

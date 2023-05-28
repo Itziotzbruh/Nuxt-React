@@ -1,0 +1,42 @@
+<template>
+  <div class="outline-black-button-container">
+    <button class="outline-black-button-button button ButtonSmall">
+      {{ buton }}
+    </button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'OutlineBlackButton',
+  props: {
+    buton: {
+      type: String,
+      default: 'Button',
+    },
+  },
+}
+</script>
+
+<style scoped>
+.outline-black-button-container {
+  display: flex;
+  position: relative;
+}
+.outline-black-button-button {
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  min-width: 150px;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  padding-left: var(--dl-space-space-fourunits);
+  border-radius: var(--dl-radius-radius-radius75);
+  padding-right: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+  background-color: #202020;
+}
+.outline-black-button-button:hover {
+  transform: scale(1.02);
+}
+</style>
