@@ -499,7 +499,7 @@
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
   background-size: cover;
-  background-image: url("public/playground_assets/2023-01-21_06.48.43-1500w.png");
+  background-image: url("public/2023-01-21_06.48.43-1500w.png");
 }
 .hall-container04 {
   display: flex;
@@ -666,7 +666,7 @@
   flex-direction: column;
   background-size: cover;
   text-decoration: none;
-  background-image: url("public/playground_assets/29a0b495840516b71597e6674fe72256-1500w.jpg");
+  background-image: url("public/29a0b495840516b71597e6674fe72256-1500w.jpg");
   transition-delay: 2s;
   -webkit-tap-highlight-color: transparent;
 }

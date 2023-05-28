@@ -254,7 +254,7 @@
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
   background-size: cover;
-  background-image: url("public/playground_assets/minecraft-1500w.jpg");
+  background-image: url("public/minecraft-1500w.jpg");
   -webkit-tap-highlight-color: transparent;
 }
 .commmunity-container08 {
@@ -421,7 +421,7 @@
   .commmunity-card {
     width: 100%;
     background-size: cover;
-    background-image: url("public/playground_assets/minecraft-1500w.jpg");
+    background-image: url("public/minecraft-1500w.jpg");
   }
   .commmunity-text6 {
     color: var(--dl-color-gray-white);
