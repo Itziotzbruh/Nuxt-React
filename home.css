@@ -235,12 +235,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-heading {
-  color: rgb(255, 255, 255);
+.home-text04 {
+  color: #ffffff;
   font-size: 100px;
-  max-width: 790px;
-  font-family: Verdana;
-  font-weight: 500;
+  font-style: normal;
+  font-family: Noto Sans;
+  font-weight: 400;
 }
 .home-caption {
   color: rgb(255, 255, 255);
@@ -306,7 +306,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-heading1 {
+.home-heading {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
@@ -363,33 +363,33 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-text13 {
+.home-text10 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
+}
+.home-text11 {
+  color: rgb(124, 124, 128);
+  line-height: 24px;
+}
+.home-text12 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text13 {
+  color: rgb(124, 124, 128);
+  line-height: 24px;
 }
 .home-text14 {
-  color: rgb(124, 124, 128);
-  line-height: 24px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
 }
 .home-text15 {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-text16 {
-  color: rgb(124, 124, 128);
-  line-height: 24px;
-}
-.home-text17 {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-text18 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -405,6 +405,12 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: space-between;
 }
+.home-image2 {
+  width: 640px;
+  z-index: 100;
+  object-fit: cover;
+  margin-right: 126px;
+}
 .home-content1 {
   gap: var(--dl-space-space-threeunits);
   flex: 1;
@@ -416,6 +422,7 @@
 }
 .home-header2 {
   gap: var(--dl-space-space-oneandhalfunits);
+  width: 381px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -426,7 +433,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-heading2 {
+.home-heading1 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
@@ -439,30 +446,15 @@
   max-width: 560px;
   line-height: 36px;
 }
-.home-caption4 {
-  color: rgb(124, 124, 128);
-  width: 100%;
-  font-size: 24px;
-  max-width: 560px;
-  line-height: 36px;
-  border-color: #313133;
-  padding-bottom: var(--dl-space-space-threeunits);
-  border-bottom-width: 1px;
-}
 .home-images {
   flex: 1;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   position: relative;
   align-items: flex-end;
   padding-top: var(--dl-space-space-fourunits);
   flex-direction: column;
   justify-content: flex-start;
-}
-.home-image2 {
-  width: 640px;
-  z-index: 100;
-  margin-top: var(--dl-space-space-sixunits);
-  object-fit: cover;
 }
 .home-growth1 {
   width: 100%;
@@ -497,20 +489,20 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-heading3 {
+.home-heading2 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
 }
-.home-caption5 {
+.home-caption4 {
   color: rgb(124, 124, 128);
   width: 100%;
   font-size: 24px;
   max-width: 560px;
   line-height: 36px;
 }
-.home-caption6 {
+.home-caption5 {
   color: rgb(124, 124, 128);
   width: 100%;
   font-size: 24px;
@@ -609,7 +601,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-heading4 {
+.home-heading3 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
@@ -643,7 +635,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text23 {
+.home-text20 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -668,7 +660,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text24 {
+.home-text21 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -693,7 +685,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text25 {
+.home-text22 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -718,7 +710,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text26 {
+.home-text23 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -730,9 +722,6 @@
   align-items: stretch;
   flex-direction: row;
   justify-content: flex-start;
-}
-.home-navlink09 {
-  display: contents;
 }
 .home-card {
   flex: 1;
@@ -746,7 +735,6 @@
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
   background-size: cover;
-  text-decoration: none;
   background-image: url('https://butwhytho.net/wp-content/uploads/2023/04/Oshi-no-Ko-Ep-1%E2%80%94-But-Why-Tho.jpg?ezimgfmt=ng:webp/ngcb1');
   -webkit-tap-highlight-color: transparent;
 }
@@ -756,7 +744,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text27 {
+.home-text24 {
   color: #000000;
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
@@ -764,6 +752,12 @@
 .home-container4 {
   display: flex;
   position: relative;
+}
+.home-navlink09 {
+  display: contents;
+}
+.home-component {
+  text-decoration: none;
 }
 .home-footer {
   width: 100%;
@@ -811,7 +805,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text28 {
+.home-text25 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
@@ -874,15 +868,10 @@
     font-weight: 700;
     line-height: 1;
   }
-  .home-heading {
-    font-family: Verdana;
+  .home-image2 {
+    margin-top: 0px;
   }
   .home-caption3 {
-    color: rgb(124, 124, 128);
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .home-caption4 {
     color: rgb(124, 124, 128);
     font-size: 24px;
     line-height: 36px;
@@ -890,9 +879,6 @@
   .home-images {
     height: 397px;
     padding-top: 0px;
-  }
-  .home-image2 {
-    margin-top: 0px;
   }
 }
 @media(max-width: 1200px) {
@@ -952,8 +938,12 @@
     font-weight: 700;
     line-height: 1;
   }
-  .home-heading {
-    font-family: Verdana;
+  .home-text04 {
+    color: #ffffff;
+    font-size: 100px;
+    font-style: normal;
+    font-family: Noto Sans;
+    font-weight: 400;
   }
   .home-caption3 {
     color: rgb(124, 124, 128);
@@ -964,6 +954,10 @@
 @media(max-width: 991px) {
   .home-hero {
     padding-left: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-mobile-menu {
+    width: 308px;
+    margin-left: 0px;
   }
   .home-navlink {
     color: #9af5ff;
@@ -1032,8 +1026,9 @@
   .home-hero-content {
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-heading {
-    font-family: Verdana;
+  .home-text04 {
+    color: #ffffff;
+    font-size: 100px;
   }
   .home-caption1 {
     color: rgb(124, 124, 128);
@@ -1059,19 +1054,20 @@
   .home-growth {
     flex-direction: column;
   }
-  .home-heading2 {
+  .home-image2 {
+    margin-top: 0px;
+    margin-bottom: 92px;
+  }
+  .home-heading1 {
     color: rgb(255, 255, 255);
   }
   .home-images {
     padding-top: 0px;
   }
-  .home-image2 {
-    margin-top: 0px;
-  }
   .home-growth1 {
     flex-direction: column;
   }
-  .home-heading3 {
+  .home-heading2 {
     color: rgb(255, 255, 255);
     font-size: 60px;
     font-style: normal;
@@ -1103,7 +1099,7 @@
   .home-branding1 {
     width: 100%;
   }
-  .home-text28 {
+  .home-text25 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;
@@ -1117,6 +1113,9 @@
   }
   .home-burger-menu {
     display: flex;
+  }
+  .home-mobile-menu {
+    width: 301px;
   }
   .home-navlink {
     color: #c2fffc;
@@ -1175,18 +1174,6 @@
     line-height: 1;
     text-decoration: none;
   }
-  .home-heading {
-    color: rgb(255, 255, 255);
-    font-size: 100px;
-    font-family: Verdana;
-    font-weight: 500;
-  }
-  .home-text04 {
-    font-weight: 100;
-  }
-  .home-text05 {
-    font-weight: 100;
-  }
   .home-note {
     align-items: flex-start;
     padding-top: var(--dl-space-space-threeunits);
@@ -1206,7 +1193,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .home-heading1 {
+  .home-heading {
     font-size: 36px;
     line-height: 42px;
   }
@@ -1235,26 +1222,22 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
+  .home-image2 {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-fiveunits3);
+  }
   .home-content1 {
     gap: var(--dl-space-space-oneandhalfunits);
   }
   .home-header2 {
     gap: var(--dl-space-space-unit);
   }
-  .home-heading2 {
+  .home-heading1 {
     font-size: 40px;
   }
   .home-caption3 {
     font-size: 16px;
     line-height: 24px;
-  }
-  .home-caption4 {
-    font-size: 16px;
-    line-height: 24px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .home-image2 {
-    width: 100%;
   }
   .home-growth1 {
     padding-top: var(--dl-space-space-threeunits);
@@ -1268,14 +1251,14 @@
   .home-header4 {
     gap: var(--dl-space-space-unit);
   }
-  .home-heading3 {
+  .home-heading2 {
     font-size: 40px;
   }
-  .home-caption5 {
+  .home-caption4 {
     font-size: 16px;
     line-height: 24px;
   }
-  .home-caption6 {
+  .home-caption5 {
     font-size: 16px;
     line-height: 24px;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1306,7 +1289,7 @@
   .home-header-container2 {
     gap: var(--dl-space-space-unit);
   }
-  .home-heading4 {
+  .home-heading3 {
     font-size: 40px;
   }
   .home-container2 {
@@ -1334,7 +1317,7 @@
     width: 30px;
   }
   .home-mobile-menu {
-    width: 309px;
+    width: 479px;
     padding: 16px;
     margin-left: 0px;
     background-color: rgba(0, 0, 0, 0.83);
@@ -1401,32 +1384,6 @@
   .home-hero-content {
     gap: var(--dl-space-space-threeunits);
   }
-  .home-heading {
-    color: rgb(255, 255, 255);
-    width: 390px;
-    font-size: 100px;
-    font-family: Verdana;
-    font-weight: 500;
-  }
-  .home-text04 {
-    font-style: normal;
-    font-family: Lato;
-    font-weight: 700;
-    line-height: 0.6;
-  }
-  .home-text05 {
-    font-style: normal;
-    font-family: Lato;
-    font-weight: 700;
-    line-height: 0.9;
-  }
-  .home-text06 {
-    font-size: 70px;
-    font-style: normal;
-    font-family: Lato;
-    font-weight: 700;
-    line-height: 0.6;
-  }
   .home-caption {
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -1446,22 +1403,25 @@
   .home-image1 {
     height: 400px;
   }
-  .home-text13 {
+  .home-text10 {
     font-size: 18px;
   }
-  .home-text15 {
+  .home-text12 {
     font-size: 18px;
   }
-  .home-text17 {
+  .home-text14 {
     font-size: 18px;
+  }
+  .home-image2 {
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .home-heading1 {
+    font-size: 36px;
   }
   .home-heading2 {
     font-size: 36px;
   }
   .home-heading3 {
-    font-size: 36px;
-  }
-  .home-heading4 {
     color: rgb(255, 255, 255);
   }
   .home-bottom {

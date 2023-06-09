@@ -220,9 +220,6 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.staf-navlink3 {
-  display: contents;
-}
 .staf-card {
   flex: 1;
   width: 255px;

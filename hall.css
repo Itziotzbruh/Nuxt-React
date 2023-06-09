@@ -46,11 +46,13 @@
   object-fit: cover;
 }
 .hall-navbar {
-  width: 100%;
+  width: 1596px;
   display: flex;
   z-index: 1000;
   position: relative;
+  flex-wrap: wrap;
   max-width: var(--dl-size-size-maxwidth);
+  align-self: stretch;
   align-items: center;
   justify-content: space-between;
 }
@@ -135,29 +137,77 @@
   flex-direction: column;
 }
 .hall-navlink {
+  color: #aae2ff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .hall-navlink1 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .hall-navlink2 {
+  color: #ff7e7e;
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.hall-container02 {
-  flex: 0 0 auto;
-  width: auto;
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-}
-.hall-login {
-  margin-right: var(--dl-space-space-twounits);
+.hall-navlink3 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: #464646;
+}
+.hall-navlink4 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.hall-navlink5 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.hall-navlink6 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.hall-navlink7 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .hall-hero-content {
   gap: var(--dl-space-space-fiveunits);
@@ -186,11 +236,7 @@
   color: rgb(255, 255, 255);
   font-size: 100px;
   max-width: 790px;
-  font-style: normal;
   font-weight: 500;
-}
-.hall-text {
-  font-size: 60px;
 }
 .hall-caption {
   color: rgb(255, 255, 255);
@@ -261,13 +307,13 @@
   backdrop-filter: saturate(200%) blur(20px);
   background-color: rgba(20, 20, 20, 0.8);
 }
-.hall-text02 {
+.hall-text07 {
   color: #ffffff;
   text-align: center;
   font-family: Arial;
   margin-bottom: var(--dl-space-space-unitandahalfunit);
 }
-.hall-text03 {
+.hall-text08 {
   color: rgb(202, 226, 255);
   font-family: Arial;
   margin-right: var(--dl-space-space-tripleunit);
@@ -363,7 +409,7 @@
   width: 12px;
   height: 12px;
 }
-.hall-text04 {
+.hall-text09 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -388,7 +434,7 @@
   width: 12px;
   height: 12px;
 }
-.hall-text05 {
+.hall-text10 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -413,7 +459,7 @@
   width: 12px;
   height: 12px;
 }
-.hall-text06 {
+.hall-text11 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -438,7 +484,7 @@
   width: 12px;
   height: 12px;
 }
-.hall-text07 {
+.hall-text12 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -463,7 +509,7 @@
   width: 12px;
   height: 12px;
 }
-.hall-text08 {
+.hall-text13 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -478,7 +524,7 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-.hall-container03 {
+.hall-container02 {
   flex: 1;
   width: 100%;
   margin: var(--dl-space-space-unit9);
@@ -501,24 +547,24 @@
   background-size: cover;
   background-image: url("public/2023-01-21_06.48.43-1500w.png");
 }
-.hall-container04 {
+.hall-container03 {
   display: flex;
   z-index: 2;
   align-items: flex-start;
   flex-direction: column;
 }
-.hall-text09 {
+.hall-text14 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
 }
-.hall-text10 {
+.hall-text15 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unit9);
   font-weight: 400;
   margin-bottom: var(--dl-space-space-unit9);
 }
-.hall-container05 {
+.hall-container04 {
   display: flex;
   position: relative;
 }
@@ -533,7 +579,7 @@
   padding-bottom: var(--dl-space-space-halfunit8);
   background-color: transparent;
 }
-.hall-text11 {
+.hall-text16 {
   color: var(--dl-color-gray-white);
   margin-right: var(--dl-space-space-halfunit8);
 }
@@ -542,7 +588,7 @@
   width: 24px;
   height: 24px;
 }
-.hall-container06 {
+.hall-container05 {
   top: auto;
   flex: 0 0 auto;
   left: 0px;
@@ -559,7 +605,7 @@
   flex-direction: column;
   background-color: rgba(0,0,0,.4);
 }
-.hall-container07 {
+.hall-container06 {
   flex: 1;
   width: 100%;
   margin: var(--dl-space-space-unit9);
@@ -582,24 +628,24 @@
   background-size: cover;
   background-image: url('https://img.uhdpaper.com/wallpaper/suzume-no-tojimari-anime-46@1@k-thumb.jpg?dl');
 }
-.hall-container08 {
+.hall-container07 {
   display: flex;
   z-index: 2;
   align-items: flex-start;
   flex-direction: column;
 }
-.hall-text12 {
+.hall-text17 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
 }
-.hall-text13 {
+.hall-text18 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unit9);
   font-weight: 400;
   margin-bottom: var(--dl-space-space-unit9);
 }
-.hall-container09 {
+.hall-container08 {
   display: flex;
   position: relative;
 }
@@ -614,7 +660,7 @@
   padding-bottom: var(--dl-space-space-halfunit8);
   background-color: transparent;
 }
-.hall-text14 {
+.hall-text19 {
   color: var(--dl-color-gray-white);
   margin-right: var(--dl-space-space-halfunit8);
 }
@@ -623,7 +669,7 @@
   width: 24px;
   height: 24px;
 }
-.hall-container10 {
+.hall-container09 {
   top: auto;
   flex: 0 0 auto;
   left: 0px;
@@ -641,7 +687,7 @@
   background-color: rgba(0,0,0,.4);
   -webkit-tap-highlight-color: transparent;
 }
-.hall-container11 {
+.hall-container10 {
   flex: 1;
   width: 100%;
   margin: var(--dl-space-space-unit9);
@@ -649,9 +695,6 @@
   align-items: stretch;
   flex-direction: row;
   justify-content: flex-start;
-}
-.hall-navlink3 {
-  display: contents;
 }
 .hall-card3 {
   flex: 1;
@@ -670,20 +713,26 @@
   transition-delay: 2s;
   -webkit-tap-highlight-color: transparent;
 }
-.hall-container12 {
+.hall-container11 {
   display: flex;
   z-index: 2;
   align-items: flex-start;
   flex-direction: column;
 }
-.hall-text15 {
+.hall-text20 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-halfunit8);
   margin-bottom: var(--dl-space-space-halfunit8);
 }
-.hall-container13 {
+.hall-container12 {
   display: flex;
   position: relative;
+}
+.hall-navlink8 {
+  display: contents;
+}
+.hall-component {
+  text-decoration: none;
 }
 .hall-faq {
   gap: var(--dl-space-space-fiveunits);
@@ -828,7 +877,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.hall-text16 {
+.hall-text21 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
@@ -1052,9 +1101,226 @@
   width: 16px;
   height: 16px;
 }
+@media(max-width: 1600px) {
+  .hall-mobile-menu {
+    border-radius: var(--dl-radius-radius-radius4);
+  }
+  .hall-navlink {
+    color: #ffb0b0;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink1 {
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink2 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+  }
+  .hall-navlink3 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink4 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink5 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink6 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink7 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-header-container {
+    width: 553px;
+    height: 400px;
+  }
+  .hall-heading {
+    color: rgb(255, 255, 255);
+  }
+  .hall-text04 {
+    font-family: Lato;
+    font-weight: 400;
+  }
+  .hall-text05 {
+    font-family: Lato;
+    font-weight: 400;
+  }
+  .hall-caption {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    line-height: 36px;
+  }
+}
+@media(max-width: 1200px) {
+  .hall-navlink {
+    color: #a7fffc;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink1 {
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink2 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink3 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink4 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink5 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink6 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-navlink7 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .hall-heading {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .hall-text04 {
+    font-size: 100px;
+  }
+  .hall-text05 {
+    font-size: 60px;
+  }
+}
 @media(max-width: 991px) {
   .hall-hero {
     padding-left: var(--dl-space-space-oneandhalfunits);
+  }
+  .hall-mobile-menu {
+    width: 308px;
+    margin-left: 0px;
+  }
+  .hall-navlink {
+    color: #9af5ff;
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink1 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink2 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink3 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink4 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink5 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink6 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink7 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
   }
   .hall-hero-content {
     padding-right: var(--dl-space-space-oneandhalfunits);
@@ -1072,27 +1338,27 @@
     font-style: normal;
     font-weight: 400;
   }
-  .hall-text05 {
+  .hall-text10 {
     color: rgb(255, 255, 255);
     line-height: 24px;
   }
-  .hall-text08 {
+  .hall-text13 {
     color: rgb(255, 255, 255);
     line-height: 24px;
   }
-  .hall-container03 {
+  .hall-container02 {
     width: 100%;
   }
   .hall-card1 {
     width: 100%;
   }
-  .hall-container07 {
+  .hall-container06 {
     width: 100%;
   }
   .hall-card2 {
     width: 100%;
   }
-  .hall-container11 {
+  .hall-container10 {
     width: 100%;
   }
   .hall-card3 {
@@ -1142,7 +1408,7 @@
   .hall-branding1 {
     width: 100%;
   }
-  .hall-text16 {
+  .hall-text21 {
     color: rgb(124, 124, 128);
     font-size: 14px;
     line-height: 21px;
@@ -1151,6 +1417,66 @@
 @media(max-width: 767px) {
   .hall-burger-menu {
     display: flex;
+  }
+  .hall-mobile-menu {
+    width: 301px;
+  }
+  .hall-navlink {
+    color: #c2fffc;
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink1 {
+    font-size: 30px;
+    font-style: inherit;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink2 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink3 {
+    font-family: Lato;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink4 {
+    font-family: Lato;
+    line-height: 1;
+  }
+  .hall-navlink5 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink6 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink7 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
   }
   .hall-heading {
     font-size: 60px;
@@ -1177,7 +1503,7 @@
   .hall-card {
     align-items: center;
   }
-  .hall-text03 {
+  .hall-text08 {
     text-align: center;
     margin-right: 0px;
     padding-right: 0px;
@@ -1203,13 +1529,13 @@
   .hall-heading1 {
     font-size: 40px;
   }
-  .hall-container03 {
+  .hall-container02 {
     margin-top: var(--dl-space-space-doubleunit);
   }
-  .hall-container07 {
+  .hall-container06 {
     margin-top: var(--dl-space-space-doubleunit);
   }
-  .hall-container11 {
+  .hall-container10 {
     margin-top: var(--dl-space-space-doubleunit);
   }
   .hall-faq {
@@ -1340,7 +1666,69 @@
     width: 30px;
   }
   .hall-mobile-menu {
+    width: 479px;
     padding: 16px;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0.83);
+  }
+  .hall-container01 {
+    margin-bottom: 42px;
+  }
+  .hall-navlink {
+    color: #a5d5ff;
+    font-family: Lato;
+    line-height: 1;
+  }
+  .hall-navlink1 {
+    font-size: 30px;
+    font-style: inherit;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink2 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink3 {
+    font-family: Lato;
+    line-height: 1;
+  }
+  .hall-text02 {
+    line-height: 1.5;
+  }
+  .hall-navlink4 {
+    font-family: Lato;
+    line-height: 1;
+  }
+  .hall-navlink5 {
+    font-size: 30px;
+    font-style: inherit;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink6 {
+    font-size: 30px;
+    font-style: inherit;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .hall-navlink7 {
+    font-size: 30px;
+    font-style: inherit;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
   }
   .hall-hero-content {
     gap: var(--dl-space-space-threeunits);
@@ -1349,7 +1737,7 @@
     font-size: 36px;
   }
   .hall-caption {
-    font-size: 16px;
+    color: rgb(255, 255, 255);
     line-height: 24px;
   }
   .hall-caption1 {
